@@ -1,0 +1,5 @@
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider\bin\Debug\ChangeProvider.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider\bin\Debug\ChangeProvider.pdb
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider\obj\Debug\ChangeProvider.csprojResolveAssemblyReference.cache
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider\obj\Debug\ChangeProvider.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider\obj\Debug\ChangeProvider.pdb

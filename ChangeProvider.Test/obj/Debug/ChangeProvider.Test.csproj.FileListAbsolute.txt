@@ -1,0 +1,11 @@
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\ChangeProvider.Test.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\ChangeProvider.Test.pdb
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\ChangeProvider.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\nunit.framework.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\ChangeProvider.pdb
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\nunit.framework.xml
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\obj\Debug\ChangeProvider.Test.csprojResolveAssemblyReference.cache
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\obj\Debug\ChangeProvider.Test.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\obj\Debug\ChangeProvider.Test.pdb
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\NSubstitute.dll
+D:\Users\Pawel\Documents\Visual Studio 2015\Projects\DOJO\ChangeProvider.Test\bin\Debug\NSubstitute.xml
