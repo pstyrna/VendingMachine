@@ -18,15 +18,14 @@ namespace DOJO
             var sum = coins.Select(c => (int)c).Sum();
             if (sum >= (int) item)
             {
-                result.Change = _changeProvider.GetChange(sum - (int) item);
-                if (result.Change == null)
+                if (_changeProvider.TryGetChange(sum - (int)item, out result.Change)) //czemu tu nie moge tak odrazu
                 {
-                    result.Change = coins;
-                    result.Item = null;
+                    result.Item = item;
                 }
                 else
                 {
-                    result.Item = item;
+                    result.Change = coins;
+                    result.Item = null;
                 }
             }
             else

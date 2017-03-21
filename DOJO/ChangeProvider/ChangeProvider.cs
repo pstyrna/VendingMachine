@@ -71,7 +71,7 @@ namespace DOJO
                 _coinsAvability.RemoveCoins(Coin.Dollar, dollarGiven);
                 for (var i = 0; i < dollarGiven; i++)
                 {
-                    coin.Add(Coin.Dollar);
+                    change.Add(Coin.Dollar); //jak to zrobic ? 
                 }
             }
             if (quaterGiven != 0)
@@ -79,7 +79,7 @@ namespace DOJO
                 _coinsAvability.RemoveCoins(Coin.Quater, quaterGiven);
                 for (var i = 0; i < quaterGiven; i++)
                 {
-                    coin.Add(Coin.Quater);
+                    change.Add(Coin.Quater);
                 }
             }
             if (dimeGiven != 0)
@@ -87,7 +87,7 @@ namespace DOJO
                 _coinsAvability.RemoveCoins(Coin.Dime, dimeGiven);
                 for (var i = 0; i < dimeGiven; i++)
                 {
-                    coin.Add(Coin.Dime);
+                    change.Add(Coin.Dime);
                 }
             }
             if (nickelGiven != 0)
@@ -95,7 +95,7 @@ namespace DOJO
                 _coinsAvability.RemoveCoins(Coin.Nickel, nickelGiven);
                 for (var i = 0; i < nickelGiven; i++)
                 {
-                    coin.Add(Coin.Nickel);
+                    change.Add(Coin.Nickel);
                 }
             }
             return true;
