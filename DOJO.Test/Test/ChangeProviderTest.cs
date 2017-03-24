@@ -34,10 +34,9 @@ namespace DOJO.Test
             _coinsAvability.CheckAvability(Coin.Dime).Returns(dime);
             _coinsAvability.CheckAvability(Coin.Quater).Returns(quater);
             _coinsAvability.CheckAvability(Coin.Dollar).Returns(dollar);
-            IEnumerable<Coin> result; //czy tak jest ok ?
             //Act
 
-            _changeProvider.TryGetChange(sum, out result);
+            _changeProvider.TryGetChange(sum, out IEnumerable<Coin> result);
 
             //Asset
             Assert.That(result, Is.EqualTo(coins));
@@ -52,7 +51,7 @@ namespace DOJO.Test
             _coinsAvability.CheckAvability(Coin.Quater).Returns(quater);
             _coinsAvability.CheckAvability(Coin.Dollar).Returns(dollar);
             //Act
-            var result = _changeProvider.TryGetChange(sum);
+            _changeProvider.TryGetChange(sum, out IEnumerable<Coin> result);
 
             //Asset
             Assert.That(result, Is.EqualTo(null));
