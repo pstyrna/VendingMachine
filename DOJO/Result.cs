@@ -8,7 +8,7 @@ namespace DOJO
 {
     public class Result
     {
-        public Item? Item { get; set; }
+        public Item? Item { get; set; } //czmu tu jest ?
         public IEnumerable<Coin> Change { get; set; }
     }
 }

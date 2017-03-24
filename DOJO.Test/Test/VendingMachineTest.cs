@@ -86,7 +86,7 @@ namespace DOJO.Test
             var coins = new Coin[] { Coin.Dollar };
             var change = new Coin[] { Coin.Quater, Coin.Dime };
 
-            _changeProvider.GetChange(35).Returns((IEnumerable<Coin>) null); //a jak tutaj zrowbic ustawienie jak jest przez out ? 
+            _changeProvider.GetChange(35).Returns((IEnumerable<Coin>) null); //a jak tutaj zrowbic ustawienie jak jest przez out? 
 
             //Act
             var result = _vendingMachine.Buy(coins, Item.A);

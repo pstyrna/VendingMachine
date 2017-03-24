@@ -71,7 +71,7 @@ namespace DOJO
                 _coinsAvability.RemoveCoins(Coin.Dollar, dollarGiven);
                 for (var i = 0; i < dollarGiven; i++)
                 {
-                    change.Add(Coin.Dollar); //jak to zrobic ? 
+                    change.Add(Coin.Dollar); //czemu to nie dziala skoro change = new Collection ? 
                 }
             }
             if (quaterGiven != 0)

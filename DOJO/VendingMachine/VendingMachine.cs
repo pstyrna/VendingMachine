@@ -18,7 +18,7 @@ namespace DOJO
             var sum = coins.Select(c => (int)c).Sum();
             if (sum >= (int) item)
             {
-                if (_changeProvider.TryGetChange(sum - (int)item, out result.Change)) //czemu tu nie moge tak odrazu
+                if (_changeProvider.TryGetChange(sum - (int)item, out result.Change)) //czemu tu nie moge tak odrazu tylko musze wczesniej tworzyc IEnumerabla ?
                 {
                     result.Item = item;
                 }
